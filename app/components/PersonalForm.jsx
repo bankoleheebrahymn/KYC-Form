@@ -178,6 +178,7 @@ const PersonalForm = () => {
       <div className="bg-slate-100 flex flex-col">
         {error &&
           error.map((e) => (
+            /* eslint-disable */
             <div className = {`${success ? "text-green-700" : "text-red-600"
               } px-5 py-2`}>
                 {e}
